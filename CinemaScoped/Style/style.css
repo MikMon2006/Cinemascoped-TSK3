@@ -20,5 +20,10 @@ body{
 }
 
 .image1{
-    size: 50%;
+    width: 20%;
+    height: auto;
+}
+
+.navbarclr{
+    background-color: #f9ecd2 !important;
 }
