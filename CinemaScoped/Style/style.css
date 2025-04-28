@@ -21,11 +21,14 @@ body{
 
 .image1{
     width: auto;
-    height: 20px;
-    align-content: center;
+    height: 30px;
 }
 
 .navbarclr{
     background-color: #f9ecd2 !important;
+}
+
+.spacenav{
+    align-self: right;
 }
 
