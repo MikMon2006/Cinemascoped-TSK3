@@ -1,13 +1,24 @@
-.title {
-    font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: bold;
-}
-
-.text {
-    font-family: "Lexend", sans-serif;
+.title{
+    font-family: "Martian Mono", monospace;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.text{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    background-color: #083d77;
+    color: #f9ecd2;
+}
+
+.image1{
+    size: 50%;
 }
