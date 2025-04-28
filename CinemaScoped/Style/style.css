@@ -16,14 +16,16 @@
 
 body{
     background-color: #083d77;
-    color: #f9ecd2;
+    text-align: left;
 }
 
 .image1{
-    width: 20%;
-    height: auto;
+    width: auto;
+    height: 20px;
+    align-content: center;
 }
 
 .navbarclr{
     background-color: #f9ecd2 !important;
 }
+
