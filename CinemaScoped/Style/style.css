@@ -71,6 +71,10 @@ h5{
     margin-left: 82px;
 }
 
+.card3{
+    margin-left: 235px;
+}
+
 .buttons{
     margin-top: 30px;
     margin-left: 19%;
@@ -79,7 +83,6 @@ h5{
 
 .btn-primary{
     width: 100%;
-    height: 100%;
     background-color: #1F68AA !important;
     border: #F4D35E solid 3px;
     border-radius: 30px;
@@ -91,4 +94,10 @@ h5{
     border: #F4D35E solid 3px;
     border-radius: 30px;
     color: #f9ecd2;
+}
+
+.review{
+    padding-top: 30px;
+    margin-left: 82px;
+    color: #f9ecd2 !important;
 }
