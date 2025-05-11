@@ -1,17 +1,9 @@
-.title{
-    font-family: "Martian Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
-}
-
 .text{
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    color: #083d77;
 }
 
 body{
@@ -29,7 +21,42 @@ body{
 }
 
 .spacenav{
-    padding-left: 800px;
+    padding-left: 770px;
+}
+
+.title{
+    text-align: center;
+    color: #f9ecd2;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h4{
+    color: #f9ecd2;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h5{
+    color: #f9ecd2;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.popcorn1{
+    padding-left: 250px;
+    padding-bottom: 25px;
+}
+
+.popcorn2{
+    padding-right: 250px;
+    padding-bottom: 25px;
 }
 
 
