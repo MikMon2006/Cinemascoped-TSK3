@@ -59,4 +59,32 @@ h5{
     padding-bottom: 25px;
 }
 
+.card1{
+    background-color: #083d77;
+    padding-top: 30px;
+    border: none;
+    padding-left: 30px;
+    display: inline-block;
+}
 
+.buttons{
+    margin-top: 30px;
+    margin-left: 19%;
+    display: inline-block;
+}
+
+.btn-primary{
+    width: 100%;
+    height: 100%;
+    background-color: #1F68AA !important;
+    border: #F4D35E solid 3px;
+    border-radius: 30px;
+    color: #f9ecd2;
+}
+
+.btn-primary:hover{
+    background-color: #1F68AA !important;
+    border: #F4D35E solid 3px;
+    border-radius: 30px;
+    color: #f9ecd2;
+}
