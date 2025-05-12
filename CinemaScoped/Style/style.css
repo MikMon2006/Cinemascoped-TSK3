@@ -104,11 +104,23 @@ h5{
 }
 
 .btn-send{
-
+    background-color: #F4D35E;
+    color: #083d77;
+    border-radius: 30px;
+    border:none;
+    width: 90px;
+    height: 40px;
+    margin-left: 43%;
 }
 
 .btn-cancel{
-    
+    background-color: #F95738;
+    color: #f9ecd2;
+    border-radius: 30px;
+    border:none;
+    width: 90px;
+    height: 40px;
+    margin-left: 7%;
 }
 
 .review{
@@ -146,4 +158,20 @@ p{
     display: inline-flex;
     margin-left: 25%;
     margin-top: 0%;
+}
+
+.personal{
+    border-radius: 10px;
+
+}
+
+.field{
+    border: none;
+    border-radius: 30px;
+}
+
+.textbox{
+    border-radius: 20px;
+    border: none;
+    background-color: #1F68AA;
 }
