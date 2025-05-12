@@ -17,7 +17,7 @@
         <div class="container-fluid">
             <div>
                 <a class="navbar-brand" href="index.html">
-                    <img src="Assets/logo1.png" alt="logoandhome" width="150px" height="auto">
+                    <img src="Assets/logo1.png" alt="Logo and Home Button" class="logo">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,35 +45,31 @@
         </div>
     </nav>
     
-    <body>
-        <form 
-        action="mailto: mikea.montebello.h63879@mcast.edu.mt"
-        method="post" enctype="text/plain">
-        <div>
-            <div class="personal text title">
-                <fieldset class="field text">
-                    <legend class="title">Suggest!</legend>
-                    
-                    <label class="title" for="Name">Name:</label>
-                    <input type="text" class="textbox" id="firstName" name="firstName" placeholder="Rick" required>
-                </fieldset>
-            </div>
-            
-            <br> 
-            
-            <div class="contact text title">
-                <fieldset class="field">
-                    
-                    <label for="email">Email:</label>
-                    <input type="email" class="textbox" name="email" id="email" placeholder="rick.astley@gmail.com" required>
-                    
-                </fieldset>
-                
-            </select>
+    <form
+    action="mailto: mikea.montebello.h63879@mcast.edu.mt"
+    method="post" enctype="text/plain">
+    <div>
+        <div class="personal text title">
+            <fieldset class="field text">
+                <label class="title" id="Name">Name:</label>
+                <input type="text" class="textbox boxwidth" id="firstName" name="firstName" placeholder="Rick" required>
+            </fieldset>
         </div>
-        <br>
-        <div class="msgss text title">
-            <label for="message">Messages:</label>
+        
+        <br> 
+        
+        <div class="contact text title">
+            <fieldset class="field">
+                <label for="email">Email:</label>
+                <input type="email" class="textbox boxwidth" name="email" id="email" placeholder="rick.astley@gmail.com" required>
+            </fieldset>
+    </div>
+
+    <br>
+
+    <div class="msgss text title">
+        <fieldset>
+            <label id="message">Messages:</label>
             <textarea name="message" class="textbox" id="messages" cols="30" rows="5"></textarea>
         </fieldset>
     </div>
@@ -86,35 +82,39 @@
 </div>
 </form>
 
-    <br><br>
+<br><br>
 
-    <div>
-        <h1 class="title">
-            TOP SUGGESTED:
-        </h1>
-        <br>
-        <h5>
-            Here are the top suggested movies/ shows which I might get around to, unless I have already watched and still working on the review!
-        </h5>
-    </div>
-
+<div>
+    <h1 class="title">
+        TOP SUGGESTED:
+    </h1>
     <br>
+    <h5 class="text" style="color: #f9ecd2;">
+        Here are the top suggested movies/ shows, maybe I have already watched and still working on the review!
+    </h5>
+</div>
 
-    <div>
-        <ul class="suggestions">
-            <li>Matilda - 2 votes</li>
-            <li>Forrest Gump - 1 vote</li>
-            <li>Saw II - 1 vote</li>
-            <li>How to Lose a Guy in 10 Days - 1 vote</li>
-            <li>10 Things I Hate About You - 1 vote</li>
-            <li>The Minecraft Movie - 1 vote</li>
-            <li>Succession - 1 vote</li>
-            <li>The Short Haunting of Bly Manor - 1 vote</li>
-            <li>Invincible - 1 vote</li>
-        </ul>
-    </div>
+<br>
+
+<div>
+    <ul class="suggestions">
+        <li>Matilda - 2 votes</li>
+        <li>Forrest Gump - 1 vote</li>
+        <li>Saw II - 1 vote</li>
+        <li>How to Lose a Guy in 10 Days - 1 vote</li>
+        <li>10 Things I Hate About You - 1 vote</li>
+        <li>The Minecraft Movie - 1 vote</li>
+        <li>Succession - 1 vote</li>
+        <li>The Short Haunting of Bly Manor - 1 vote</li>
+        <li>Invincible - 1 vote</li>
+    </ul>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!-- All cleared, excluding "mailto" line; Do not know the problem. Note on validator: 
+Bad value mailto: mikea.montebello.h63879@mcast.edu.mt for attribute action on element form: 
+Illegal character in scheme data: space is not allowed. -->

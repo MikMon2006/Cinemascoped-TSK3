@@ -1,7 +1,5 @@
 .text{
     font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
     color: #083d77;
 }
@@ -149,8 +147,6 @@ h5{
 p{
     color: #f9ecd2;
     font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
 }
 
@@ -162,16 +158,19 @@ p{
 
 .personal{
     border-radius: 10px;
-
+    
 }
 
 .field{
     border: none;
     border-radius: 30px;
+    margin-left: 2.5%;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .textbox{
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     background-color: #1F68AA;
 }
@@ -179,10 +178,29 @@ p{
 .suggestions{
     color: #F4D35E;
     font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
     margin-left: 5%;
     font-size: 20px;
 }
 
+.logo{
+    width: 150px;
+}
+
+.card4{
+    width: 18rem;
+}
+
+::placeholder {
+    color: #F4D35E;
+    opacity: 50%;
+    padding-left: 10px;
+}
+
+.boxwidth{
+    width: 18rem;
+}
+
+
+/* Congratulations! No Error Found.
+This document validates as CSS level 3 + SVG ! */
