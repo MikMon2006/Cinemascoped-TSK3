@@ -98,6 +98,37 @@ h5{
 
 .review{
     padding-top: 30px;
-    margin-left: 82px;
     color: #f9ecd2 !important;
+}
+
+.review-container{
+    background-color: #1F68AA;
+    margin: 2%;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.review-image{
+    border-radius: 20px;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.information{
+    color: #083d77;
+    padding-top: 10px;
+}
+
+p{
+    color: #f9ecd2;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.text-place{
+    display: flex;
+    width: 50%;
+
 }
