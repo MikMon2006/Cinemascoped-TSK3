@@ -175,3 +175,14 @@ p{
     border: none;
     background-color: #1F68AA;
 }
+
+.suggestions{
+    color: #F4D35E;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
