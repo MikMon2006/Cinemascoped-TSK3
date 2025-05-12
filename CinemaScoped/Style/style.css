@@ -122,6 +122,7 @@ h5{
 }
 
 .review{
+    font-size: 50px;
     padding-top: 30px;
     color: #f9ecd2 !important;
 }
@@ -199,6 +200,10 @@ p{
     width: 18rem;
 }
 
+.card5{
+    margin-left:28%;
+}
+
 ::placeholder {
     color: #F4D35E;
     opacity: 50%;
@@ -209,6 +214,18 @@ p{
     width: 18rem;
 }
 
+.favs{
+    margin-left: 32.5%;
+}
+
+.fav-number{
+    color: #F4D35E;
+}
+
+.top-title{
+    color: #f9ecd2;
+    margin-top: 2rem;
+}
 
 /* Congratulations! No Error Found.
 This document validates as CSS level 3 + SVG ! */
