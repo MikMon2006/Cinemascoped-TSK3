@@ -204,6 +204,13 @@ p{
     margin-left:28%;
 }
 
+.card6{
+    background-color: #1F68AA;
+    border: none;
+    display: inline-flex;
+    margin-left: 2rem;
+}
+
 ::placeholder {
     color: #F4D35E;
     opacity: 50%;
@@ -225,6 +232,11 @@ p{
 .top-title{
     color: #f9ecd2;
     margin-top: 2rem;
+}
+
+.towatch{
+    color: #1F68AA;
+    margin-top: 20%;
 }
 
 /* Congratulations! No Error Found.
