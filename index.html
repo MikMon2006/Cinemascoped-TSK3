@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/style.css">
+
+    <!-- Font links; Dyslexic friendly font (from style guide) changed to different one that is still dyslexic-friendly -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <!-- navbar code; home page is logo, watchlist is the eye (will be the same in all pages) -->
+
+    <nav class="navbar navbarclr navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="index.html">
+                    <img src="Assets/logo1.png" alt="Logo and Home Button" class="logo">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text"  href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text" href="favourites.html">Favourites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text" href="contact.html">Suggestions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item spacenav">
+                        <a class="nav-link text" href="viewerwatchlist.html"><img src="Assets/watchlistadd.png" class="image1" alt="watchlist"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="text title">
+        <h1>WELCOME TO</h1>
+        <img src="Assets/title.png" alt="title-Cinema Scoped">
+    </div>
+    <div class="text">
+        <h4>
+            A personal film, show and genre review site, looking to express my opinion and barely listen to yours! 
+            (I’ll listen to your suggestions though)
+            You are able to create your own watchlist based on media I reviewed!
+            You can learn all about me in the ‘About’ page (obviously).
+            Enjoy the reviews and my favourite films and shows...
+        </h4>
+    </div>
+    
+    <br>
+    <br>
+    
+    <div class="text title">
+        <h1>My Rating System</h1>
+        <br>
+        <h5>I love popcorn, so I work with popcorn (seems fitting for media reviews). So the rubric is of 5 popcorns... </h5>
+        <h5>The empty popcorn means no popcorn has been given...</h5>
+        <h5>This full popcorn means the popcorn has been given!</h5>
+
+        <!-- arrow codes found in W3Schools -->
+        <h1> &#8617; &#8618;</h1>
+
+        <!-- images of popcorn ratings -->
+        <img src="Assets/notrated.png" class=" popcorn1 rounded float-start" alt="empty popcorn rating">
+        <img src="Assets/rated.png" class="popcorn2 rounded float-end" alt="full popcorn rating">
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- Document checking completed. No errors or warnings to show. -->
